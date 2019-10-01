@@ -68,8 +68,7 @@ html
 
 .nav-icon
 {
-    position: absolute;
-    top: 60px;
+    top: 30px;
     right: 30px;
     padding: 0px;
     width: 40px;
@@ -242,7 +241,7 @@ ul.social-icons.list-inline
 {
     display: block;
     width: 30px;
-    height: 30ox;
+    height: 30px;
     position: absolute;
     top: 30px;
     right: 30px;
@@ -251,7 +250,7 @@ ul.social-icons.list-inline
 .nav-close span
 {
     background: #18191d;
-    width: 30px;
+    width: 41px;
     height: 1px;
     display: block;
     position: absolute;
