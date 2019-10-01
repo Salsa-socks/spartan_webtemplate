@@ -27,7 +27,8 @@ html
 {
     display: flex;
     justify-content: center;
-    padding: 10px 30px; 
+    padding-top: 12px;
+    padding-bottom: 3px;
     position: absolute;
     transition: all 0.3s;
     background: white;
@@ -40,6 +41,7 @@ html
 {
     display: flex;
     align-items: center;
+    position: relative;
     flex-wrap: wrap;
 }
 
@@ -54,7 +56,7 @@ html
     font-size: 1.1em;
     color: #333;
     padding: 0.25rem 0;
-    margin: 0 1.80rem;
+    margin: 10px 1.80rem;
     text-transform: uppercase;
 }
 
@@ -67,7 +69,7 @@ html
 .nav-icon
 {
     position: absolute;
-    top: 22px;
+    top: 60px;
     right: 30px;
     padding: 0px;
     width: 40px;
@@ -154,7 +156,7 @@ html
     display: flex;
     flex: 40%;
     background-color: #f5f5f5;
-    padding: 1rem;
+    padding: .9rem;
     border-bottom: 10px solid #f1c30f;
     border-right: 10px solid #f1c30f;
     transition: all 0.5s;
@@ -370,7 +372,7 @@ video#herovideo
 {
     font-family: 'Roboto Condensed', sans-serif;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     padding: 15px 40px;
     background: white;
     color: #333;
@@ -378,6 +380,7 @@ video#herovideo
     border-radius: 50px;
     animation: shadow-pulse 2s infinite;
     text-transform: uppercase;
+    transform: scale(0.9);
 }
 
 #vidBtn:hover

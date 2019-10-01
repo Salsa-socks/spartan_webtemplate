@@ -16,20 +16,19 @@ $(document).ready(function()
         else{
             $(".nav").removeClass("sticky");
         }
-
-        $('.bxslider').bxSlider({
-            auto: true,
-            pager: true,
-            controls: false,
-            mode: 'horizontal',
-            moveSlides: 1,
-            slideMargin: 40,
-            infiniteLoop: true,
-            minSlides: 1,
-            maxSlides: 1,
-            speed: 1200,    
-        
     });
+});
 
-    });
+$('.bxslider').bxSlider({
+    auto: true,
+    pager: true,
+    controls: false,
+    mode: 'horizontal',
+    moveSlides: 1,
+    slideMargin: 40,
+    infiniteLoop: true,
+    minSlides: 1,
+    maxSlides: 1,
+    speed: 1200,    
+
 });
