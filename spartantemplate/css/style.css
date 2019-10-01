@@ -58,11 +58,6 @@ html
     text-transform: uppercase;
 }
 
-.nav ul li.logo black
-{
-    display: none;
-}
-
 .nav ul li.logo a
 {
     margin: 0 4rem;
