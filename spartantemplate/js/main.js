@@ -18,6 +18,9 @@ $(document).ready(function()
         }
 
         $('.bxslider').bxSlider({
+            auto: true,
+            pager: true,
+            controls: false,
             mode: 'horizontal',
             moveSlides: 1,
             slideMargin: 40,
